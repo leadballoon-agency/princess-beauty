@@ -84,32 +84,32 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     const laxity = assessmentAnswers[2]
     const ageRange = assessmentAnswers[3]
 
-    // Face & Neck for significant concerns or neck-specific
-    if (concern === 'neck' || laxity === 'significant' || (concern === 'fullface' && ageRange === '55+')) {
+    // Full Face, Jowls, Neck & Eyelift for significant concerns, neck-specific, or full face
+    if (concern === 'neck' || laxity === 'significant' || concern === 'fullface' || (concern === 'cheeks' && ageRange === '55+')) {
       return {
-        treatment: 'Face & Neck HIFU',
-        price: '£399',
-        description: 'Complete face and neck treatment for maximum lifting. Targets jowls, jawline, and turkey neck for comprehensive rejuvenation.',
-        isSuitable: true
-      }
-    }
-
-    // Full Face HIFU for most cases
-    if (concern === 'jowls' || concern === 'cheeks' || concern === 'fullface' || laxity === 'moderate') {
-      return {
-        treatment: 'Full Face HIFU',
+        treatment: 'Full Face, Jowls, Neck & Eyelift',
         price: '£395',
-        description: 'Our comprehensive treatment for full facial rejuvenation. Lifts jowls, tightens cheeks, and defines your jawline for natural-looking results.',
+        description: 'Our most popular treatment — complete non-surgical facelift with the advanced TA2 7D System. Targets jowls, jawline, neck, and eye area for comprehensive rejuvenation. 90 minute session.',
         isSuitable: true
       }
     }
 
-    // Targeted treatment for specific areas
+    // Jawline HIFU for moderate or targeted concerns
+    if (concern === 'jowls' || concern === 'cheeks' || laxity === 'moderate') {
+      return {
+        treatment: 'Jawline HIFU',
+        price: '£195',
+        description: 'Targeted jawline lifting and definition with the TA2 7D System. Perfect for sagging jowls and jawline definition. 60 minute session. Intro offer price.',
+        isSuitable: true
+      }
+    }
+
+    // Jawline HIFU for preventative or mild concerns
     if (concern === 'brows' || concern === 'prevention' || laxity === 'mild') {
       return {
-        treatment: 'Targeted Area HIFU',
-        price: 'From £149',
-        description: 'Perfect for specific areas or preventative treatment. Quick session focusing on your main concern with visible lifting results.',
+        treatment: 'Jawline HIFU',
+        price: '£195',
+        description: 'An excellent first HIFU treatment — targeted lifting with the TA2 7D System. Great for early signs of ageing or preventative care. 60 minute session at our intro offer price.',
         isSuitable: true
       }
     }
@@ -118,7 +118,7 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     return {
       treatment: 'Jawline HIFU',
       price: '£195',
-      description: 'Our introductory offer - perfect for defining your jawline and lifting jowls. An excellent first treatment to experience HIFU results.',
+      description: 'Our introductory offer — targeted jawline lifting and definition with the TA2 7D System. An excellent first treatment to experience HIFU results. 60 minute session.',
       isSuitable: true
     }
   }

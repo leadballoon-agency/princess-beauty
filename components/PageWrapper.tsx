@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navigation from '@/components/Navigation'
 import PremiumHero from '@/components/PremiumHero'
 import AssessmentTool from '@/components/AssessmentTool'
@@ -17,6 +17,12 @@ import BookingModal from '@/components/BookingModal'
 import VideoModal from '@/components/VideoModal'
 
 export default function PageWrapper() {
+  useEffect(() => {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual'
+    }
+  }, [])
+
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false)
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false)
   const [assessmentData, setAssessmentData] = useState<any>(null)

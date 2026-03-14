@@ -7,14 +7,15 @@ export default function AboutSection({ onBookingClick }: AboutSectionProps) {
     {
       name: 'Jelena',
       title: 'HIFU Specialist — Princess Beauty Studio',
-      image: 'https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/6624d8d08381f285870ce101.jpeg',
+      image: '/jelena.jpeg',
       bio: 'Welcome to Princess Beauty Studio in Godmanchester, near Huntingdon. I specialise in advanced HIFU treatments using the TA2 7D System — the latest generation technology that is 30% more effective than previous 4D HIFU. I am the only practitioner in the Huntingdon area offering this cutting-edge system. My focus is on delivering natural, visible results that enhance your confidence, with clients regularly commenting on how much younger they look after treatment.',
       qualifications: [
         'TA2 7D HIFU System Specialist',
         'Non-Surgical Facelift Expert',
         'Advanced Skin Tightening',
         'Anti-Wrinkle Treatments',
-        'Dedicated to Natural Results'
+        'Dedicated to Natural Results',
+        '2024 Englands Business Awards Nominee'
       ],
       instagram: 'princessbeautystudio'
     }
@@ -77,6 +78,17 @@ export default function AboutSection({ onBookingClick }: AboutSectionProps) {
                       </li>
                     ))}
                   </ul>
+                </div>
+
+                {/* Award Badge */}
+                <div className="pt-4 flex justify-center">
+                  <div className="relative w-[140px] sm:w-[160px]">
+                    <img
+                      src="/award.jpeg"
+                      alt="2024 Englands Business Awards Nominee"
+                      className="w-full rounded-xl shadow-lg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

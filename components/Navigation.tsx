@@ -14,9 +14,7 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
-      // Show nav when scrolled past 100px
       setIsVisible(currentScrollY > 100)
-      // Add background when scrolled past 50px
       setIsScrolled(currentScrollY > 50)
     }
     window.addEventListener('scroll', handleScroll)
@@ -27,46 +25,47 @@ export default function Navigation({ onBookingClick }: NavigationProps) {
     <nav className={`fixed w-full z-50 transition-all duration-500 ${
       isVisible ? 'top-0' : '-top-24'
     } ${
-      isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-lg py-4' : 'bg-transparent py-6'
+      isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-lg py-3' : 'bg-transparent py-4'
     }`}>
-      <div className="max-w-7xl mx-auto section-padding">
-        <div className="flex justify-between items-center">
-          <a href="/" className="flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-14">
+          {/* Logo */}
+          <a href="/" className="flex-shrink-0">
             <span className="font-display text-xl sm:text-2xl font-bold text-primary-700">
               Princess <span className="text-accent-500">Beauty</span>
             </span>
           </a>
 
-          <div className="hidden md:flex items-center space-x-8">
+          {/* Centre nav links */}
+          <div className="hidden md:flex items-center gap-8">
             {['About', 'Treatments', 'Results', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className={`font-medium transition-colors ${
-                  isScrolled ? 'text-neutral-700 hover:text-primary-600' : 'text-neutral-700 hover:text-primary-600'
-                }`}
+                className="text-sm font-medium text-neutral-700 hover:text-primary-600 transition-colors"
               >
                 {item}
               </a>
             ))}
           </div>
 
-          <div className="hidden md:flex items-center space-x-3">
+          {/* Right CTA */}
+          <div className="hidden md:flex items-center gap-4">
             <a
               href="#assessment"
-              className="text-primary-600 font-medium hover:text-primary-700 transition-colors"
+              className="text-sm text-primary-600 font-medium hover:text-primary-700 transition-colors"
             >
               Take Assessment
             </a>
-            <span className="text-neutral-300">|</span>
             <button
               onClick={onBookingClick}
-              className="inline-flex bg-gradient-to-r from-primary-500 to-primary-600 text-white px-6 py-2.5 rounded-full font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-primary-500 to-primary-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               Book Now
             </button>
           </div>
 
+          {/* Mobile hamburger */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden p-2"

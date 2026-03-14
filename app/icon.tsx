@@ -14,8 +14,8 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 14,
-          background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)',
+          fontSize: 13,
+          background: 'linear-gradient(135deg, #d4a5a5 0%, #a66d6d 100%)',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -26,7 +26,7 @@ export default function Icon() {
           borderRadius: '6px',
         }}
       >
-        DA
+        PB
       </div>
     ),
     {
