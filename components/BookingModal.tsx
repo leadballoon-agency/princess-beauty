@@ -60,8 +60,7 @@ export default function BookingModal({ isOpen, onClose, assessmentData }: Bookin
         <div className="flex-1 overflow-y-auto">
           <iframe
             src="https://links.hifuhuntingdon.co.uk/widget/booking/rhDjdV9zXMThroQiJoWR"
-            style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }}
-            scrolling="no"
+            style={{ width: '100%', border: 'none', minHeight: '700px', height: '100%' }}
           />
         </div>
       </div>
