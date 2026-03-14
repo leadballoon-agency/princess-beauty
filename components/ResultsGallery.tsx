@@ -69,13 +69,13 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
       isAvailable: true,
       featured: false
     },
-    {
-      title: 'Become a Model',
-      description: 'Get exclusive rates in exchange for before & after photos',
-      isAvailable: true,
-      featured: false,
-      isModelDay: true
-    }
+    // {
+    //   title: 'Become a Model',
+    //   description: 'Get exclusive rates in exchange for before & after photos',
+    //   isAvailable: true,
+    //   featured: false,
+    //   isModelDay: true
+    // }
   ]
 
   return (
