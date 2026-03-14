@@ -65,19 +65,18 @@ export default function VideoModal({ isOpen, onClose }: VideoModalProps) {
           </svg>
         </button>
 
-        {/* Placeholder - Video Coming Soon */}
+        {/* Video Player */}
         <div className="relative w-full h-full bg-black flex items-center justify-center">
-          <div className="text-center text-white p-8">
-            <div className="w-20 h-20 bg-white/20 backdrop-blur rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-              </svg>
-            </div>
-            <h3 className="text-xl sm:text-2xl font-bold mb-3">Video Coming Soon</h3>
-            <p className="text-white/80 text-sm sm:text-base max-w-md mx-auto">
-              We're preparing a video showcasing our TA2 7D HIFU treatments and results at Princess Beauty Studio. Check back soon!
-            </p>
-          </div>
+          <video
+            ref={videoRef}
+            className="w-full h-full object-contain"
+            controls
+            playsInline
+            preload="metadata"
+          >
+            <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b5aade0bd6854dd7783571.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>

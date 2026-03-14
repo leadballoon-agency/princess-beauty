@@ -98,30 +98,37 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
             </div>
           </div>
 
-          {/* Mobile Image Section - Simple and Clean */}
+          {/* Mobile Video Section */}
           <div className="relative mt-8 lg:hidden">
             <div className="relative mx-auto max-w-[320px]">
-              <img
-                src="https://storage.googleapis.com/msgsndr/gifJevody1uHQcVkPPPf/media/6796669964e3ccef0af06310.png"
-                alt="HIFU Before and After Results - Princess Beauty Studio"
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
                 className="rounded-2xl shadow-xl w-full"
-              />
+              >
+                <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b5aade0e6afd63f5f1c256.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
 
-          {/* Desktop Image Section */}
+          {/* Desktop Video Section */}
           <div className="relative mt-8 lg:mt-0 hidden lg:block">
             <div className="relative h-[600px] flex items-center justify-center p-8">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-primary-100 rounded-3xl"></div>
 
               <div className="relative flex items-center justify-center h-full w-full">
-                {/* Main Image */}
                 <div className="relative w-full max-w-md">
-                  <img
-                    src="https://storage.googleapis.com/msgsndr/gifJevody1uHQcVkPPPf/media/6796669964e3ccef0af06310.png"
-                    alt="HIFU Before and After Results - Princess Beauty Studio"
-                    className="rounded-2xl shadow-2xl w-full animate-float"
-                  />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="rounded-2xl shadow-2xl w-full"
+                  >
+                    <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b5aade0e6afd63f5f1c256.mp4" type="video/mp4" />
+                  </video>
                 </div>
               </div>
 
@@ -140,7 +147,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
               </div>
             </div>
 
-            {/* Decorative Elements - Hidden on Mobile */}
+            {/* Decorative Elements */}
             <div className="hidden sm:block absolute -top-6 -right-6 w-24 sm:w-32 h-24 sm:h-32 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full animate-float opacity-20 blur-2xl"></div>
             <div className="hidden sm:block absolute -bottom-6 -left-6 w-32 sm:w-40 h-32 sm:h-40 bg-gradient-to-tr from-primary-300 to-primary-500 rounded-full animate-float opacity-20 blur-2xl" style={{animationDelay: '2s'}}></div>
           </div>

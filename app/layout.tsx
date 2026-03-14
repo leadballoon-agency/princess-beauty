@@ -80,6 +80,12 @@ export default function RootLayout({
         </Suspense>
         <StructuredData />
         {children}
+        <script src="https://links.hifuhuntingdon.co.uk/js/form_embed.js" type="text/javascript" async />
+        <script
+          src="https://links.hifuhuntingdon.co.uk/js/external-tracking.js"
+          data-tracking-id="tk_637ed572c67249cd81120d23d328442d"
+          async
+        />
       </body>
     </html>
   )
