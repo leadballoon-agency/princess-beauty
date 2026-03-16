@@ -108,7 +108,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                 playsInline
                 className="rounded-2xl shadow-xl w-full"
               >
-                <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b5aade0e6afd63f5f1c256.mp4" type="video/mp4" />
+                <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b859e6c62585f36ace5582.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                     playsInline
                     className="rounded-2xl shadow-2xl w-full"
                   >
-                    <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b5aade0e6afd63f5f1c256.mp4" type="video/mp4" />
+                    <source src="https://assets.cdn.filesafe.space/gifJevody1uHQcVkPPPf/media/69b859e6c62585f36ace5582.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
