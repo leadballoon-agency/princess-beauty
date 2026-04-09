@@ -94,31 +94,31 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
       }
     }
 
-    // Jawline HIFU for moderate or targeted concerns
+    // Jawline & Neck HIFU for moderate or targeted concerns
     if (concern === 'jowls' || concern === 'cheeks' || laxity === 'moderate') {
       return {
-        treatment: 'Jawline HIFU',
-        price: '£195',
-        description: 'Targeted jawline lifting and definition with the TA2 7D System. Perfect for sagging jowls and jawline definition. 60 minute session. Intro offer price.',
+        treatment: 'Jawline & Neck HIFU',
+        price: '£295',
+        description: 'Targeted jawline lifting, definition and neck tightening with the TA2 7D System. Perfect for sagging jowls, jawline and neck. 60 minute session. Intro offer price.',
         isSuitable: true
       }
     }
 
-    // Jawline HIFU for preventative or mild concerns
+    // Jawline & Neck HIFU for preventative or mild concerns
     if (concern === 'brows' || concern === 'prevention' || laxity === 'mild') {
       return {
-        treatment: 'Jawline HIFU',
-        price: '£195',
-        description: 'An excellent first HIFU treatment — targeted lifting with the TA2 7D System. Great for early signs of ageing or preventative care. 60 minute session at our intro offer price.',
+        treatment: 'Jawline & Neck HIFU',
+        price: '£295',
+        description: 'An excellent first HIFU treatment — jawline and neck lifting with the TA2 7D System. Great for early signs of ageing or preventative care. 60 minute session at our intro offer price.',
         isSuitable: true
       }
     }
 
-    // Default to Jawline HIFU (intro offer)
+    // Default to Jawline & Neck HIFU (intro offer)
     return {
-      treatment: 'Jawline HIFU',
-      price: '£195',
-      description: 'Our introductory offer — targeted jawline lifting and definition with the TA2 7D System. An excellent first treatment to experience HIFU results. 60 minute session.',
+      treatment: 'Jawline & Neck HIFU',
+      price: '£295',
+      description: 'Our introductory offer — jawline and neck lifting with the TA2 7D System. A comprehensive 1-hour treatment to experience HIFU results.',
       isSuitable: true
     }
   }

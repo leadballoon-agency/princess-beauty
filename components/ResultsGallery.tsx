@@ -229,7 +229,7 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
           {[
             { number: '5+', label: 'Years Experience' },
             { number: '500+', label: 'Treatments Completed' },
-            { number: '£195', label: 'Starting From' },
+            { number: '£295', label: 'Starting From' },
             { number: '1', label: 'Expert Practitioner' }
           ].map((stat, index) => (
             <div key={index} className="text-center">

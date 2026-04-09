@@ -8,10 +8,10 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
   const treatments = [
     {
       icon: '✦',
-      title: 'Jawline HIFU',
-      description: 'Targeted jawline lifting & definition with TA2 7D System',
-      features: ['TA2 7D HIFU technology', 'Jawline definition', 'Lifts sagging jowls', '60 minute session'],
-      price: '£195',
+      title: 'Jawline & Neck HIFU',
+      description: 'Lift, tighten and define your jawline and neck with TA2 7D System',
+      features: ['TA2 7D HIFU technology', 'Jawline definition', 'Neck tightening', 'Lifts sagging jowls', '60 minute session'],
+      price: '£295',
       gradient: 'from-accent-400 to-accent-500',
       popular: false,
       badge: 'INTRO OFFER'

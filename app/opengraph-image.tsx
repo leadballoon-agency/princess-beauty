@@ -214,10 +214,10 @@ export default function OGImage() {
                 INTRO OFFER
               </span>
               <span style={{ fontSize: 44, fontWeight: 800, color: '#a66d6d' }}>
-                £195
+                £295
               </span>
               <span style={{ fontSize: 18, color: '#475569', fontWeight: 600 }}>
-                Jawline HIFU
+                Jawline & Neck HIFU
               </span>
             </div>
 

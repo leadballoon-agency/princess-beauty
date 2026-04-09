@@ -129,25 +129,25 @@ export default function StructuredData() {
     ]
   }
 
-  // Service Schema — Jawline HIFU
+  // Service Schema — Jawline & Neck HIFU
   const jawlineServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://hifuhuntingdon.co.uk/#jawline-hifu",
-    "name": "Jawline HIFU — TA2 7D System",
-    "description": "Targeted jawline lifting and definition using the advanced TA2 7D HIFU System. Non-surgical, zero downtime, 60 minute session. Intro offer pricing.",
+    "@id": "https://hifuhuntingdon.co.uk/#jawline-neck-hifu",
+    "name": "Jawline & Neck HIFU — TA2 7D System",
+    "description": "Targeted jawline lifting, definition and neck tightening using the advanced TA2 7D HIFU System. Non-surgical, zero downtime, 60 minute session. Intro offer pricing.",
     "provider": { "@id": "https://hifuhuntingdon.co.uk/#business" },
     "serviceType": "HIFU Treatment",
     "category": "Non-Surgical Facelift",
     "areaServed": { "@type": "City", "name": "Huntingdon" },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Jawline HIFU Pricing",
+      "name": "Jawline & Neck HIFU Pricing",
       "itemListElement": [
         {
           "@type": "Offer",
-          "name": "Jawline HIFU — Intro Offer",
-          "price": "195",
+          "name": "Jawline & Neck HIFU — Intro Offer",
+          "price": "295",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
           "url": "https://hifuhuntingdon.co.uk",
@@ -287,7 +287,7 @@ export default function StructuredData() {
         "name": "How much does HIFU cost in Huntingdon?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "At Princess Beauty Studio, Jawline HIFU starts from £195 (intro offer). Full Face, Jowls, Neck & Eyelift is £395. All treatments use the advanced TA2 7D System. Klarna pay-in-3 is available. Free consultations included."
+          "text": "At Princess Beauty Studio, Jawline & Neck HIFU starts from £295 (intro offer). Full Face, Jowls, Neck & Eyelift is £395. All treatments use the advanced TA2 7D System. Klarna pay-in-3 is available. Free consultations included."
         }
       },
       {

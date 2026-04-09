@@ -42,8 +42,8 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
               <p className="text-primary-700 font-bold text-xs sm:text-sm mb-3 tracking-wide">TA2 7D HIFU Treatments in Godmanchester, Huntingdon</p>
               <div className="flex justify-center gap-4">
                 <div className="text-center bg-white border-2 border-primary-200 rounded-xl p-4 sm:p-5 shadow-md flex-1">
-                  <p className="text-2xl sm:text-3xl font-bold text-primary-700 mb-1">£195</p>
-                  <p className="text-sm sm:text-base text-neutral-700 font-medium">Jawline HIFU</p>
+                  <p className="text-2xl sm:text-3xl font-bold text-primary-700 mb-1">£295</p>
+                  <p className="text-sm sm:text-base text-neutral-700 font-medium">Jawline & Neck HIFU</p>
                   <p className="text-xs text-accent-500 mt-2 font-semibold">Intro Offer</p>
                 </div>
                 <div className="text-center bg-white border-2 border-accent-400 rounded-xl p-4 sm:p-5 shadow-md flex-1">
