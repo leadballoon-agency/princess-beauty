@@ -7,6 +7,7 @@ import AssessmentTool from '@/components/AssessmentTool'
 import AboutSection from '@/components/AboutSection'
 import PremiumTreatments from '@/components/PremiumTreatments'
 import ResultsGallery from '@/components/ResultsGallery'
+import HifuDepthSection from '@/components/HifuDepthSection'
 import Reviews from '@/components/Reviews'
 import ProcessSection from '@/components/ProcessSection'
 import FinanceSection from '@/components/FinanceSection'
@@ -53,6 +54,7 @@ export default function PageWrapper() {
           setAssessmentData({ skipToCalendar: true })
           setIsBookingModalOpen(true)
         }} />
+        <HifuDepthSection />
         <ResultsGallery onBookingClick={() => {
           setAssessmentData({ skipToCalendar: true })
           setIsBookingModalOpen(true)
