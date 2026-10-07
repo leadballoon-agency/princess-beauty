@@ -20,7 +20,7 @@ export default function StructuredData() {
       "https://storage.googleapis.com/msgsndr/gifJevody1uHQcVkPPPf/media/66dd3ce284ef29ef27ec130a.jpeg"
     ],
     "description": "Expert HIFU non-surgical facelift treatments in Huntingdon. The only clinic in the area with the advanced TA2 7D HIFU System — 30% more effective than previous 4D HIFU. Specialising in skin tightening, jowl lifting, and facial rejuvenation with zero downtime. Led by experienced practitioner Jelena.",
-    "telephone": "+447743080038",
+    "telephone": "+447446493007",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "16 Ash Tree Avenue",

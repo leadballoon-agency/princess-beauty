@@ -32,10 +32,10 @@ export default function CTASection({ onBookingClick }: CTASectionProps) {
             <div className="text-2xl sm:text-3xl mb-2 sm:mb-3">📞</div>
             <h3 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Call Jelena</h3>
             <a
-              href="tel:07743080038"
+              href="tel:+447446493007"
               className="text-white/90 hover:text-white text-sm sm:text-base"
             >
-              07743 080038
+              07446 493007
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export default function CTASection({ onBookingClick }: CTASectionProps) {
             <div className="text-2xl sm:text-3xl mb-2 sm:mb-3">💬</div>
             <h3 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Text Us</h3>
             <a
-              href="sms:07743080038"
+              href="sms:+447446493007"
               className="text-white/90 hover:text-white text-xs sm:text-sm"
             >
               Send a message

@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm sm:text-base text-neutral-400">
               <li>
                 <span className="text-neutral-500">Phone: </span>
-                <a href="tel:07743080038" className="text-neutral-300 hover:text-white transition-colors">07743 080038</a>
+                <a href="tel:+447446493007" className="text-neutral-300 hover:text-white transition-colors">07446 493007</a>
               </li>
               <li className="mt-3 pt-3 border-t border-neutral-800 leading-relaxed">16 Ash Tree Avenue</li>
               <li>Godmanchester</li>

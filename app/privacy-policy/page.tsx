@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
               <p className="text-neutral-700">Godmanchester</p>
               <p className="text-neutral-700">Cambridgeshire PE29 2FH</p>
               <p className="text-neutral-700 mt-3">
-                <strong>Phone:</strong> <a href="tel:07743080038" className="text-primary-600 hover:text-primary-700">07743 080038</a>
+                <strong>Phone:</strong> <a href="tel:+447446493007" className="text-primary-600 hover:text-primary-700">07446 493007</a>
               </p>
             </div>
           </section>

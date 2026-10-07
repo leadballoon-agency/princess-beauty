@@ -137,7 +137,7 @@ export default function Reviews() {
         {/* Phone CTA */}
         <div className="mt-12 sm:mt-16 text-center">
           <a
-            href="tel:07743080038"
+            href="tel:+447446493007"
             className="inline-flex items-center space-x-4 bg-gradient-to-r from-primary-50 to-primary-100 rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-all duration-300"
           >
             <svg className="w-12 h-12 sm:w-16 sm:h-16 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -145,7 +145,7 @@ export default function Reviews() {
             </svg>
             <div className="text-left">
               <p className="font-semibold text-neutral-900 text-base sm:text-lg mb-1">Book a Consultation</p>
-              <p className="text-sm text-neutral-600">07743 080038</p>
+              <p className="text-sm text-neutral-600">07446 493007</p>
             </div>
           </a>
         </div>
